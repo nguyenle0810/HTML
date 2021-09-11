@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMPLE FORM</title>
+    <style>
+        .wufoo {
+            font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 20px;">
+    <form method="get" action="simpleform.html" class = ".wufoo">
+        <h2>Order Form</h2>
+        <p>What would you like to buy?</p>
+        <select>
+            <option value = "  ">A</option>
+            <option>B (+  0.5$)</option>
+            <option>C (+  0.5$)</option>
+        </select>
+        <p>How many would you like to order?</p>
+        <input type="radio" name="rd"/> 1 - $10 <br/>
+        <input type="radio" name="rd"/> 2 - $20 <br/>
+        <input type="radio" name="rd"/> 3 - $25 <br/>
+        <p>Name <span style="color: red">*</span> </p>
+        <input type = "text" name="firstname" placeholder="FirstName" size="15"/>
+        <input type = "text" name="lastname" placeholder="LastName" size="15"/>
+        <p>Email</p>
+        <input type = "text" name="email" size="35"/>
+        <p>Phone Number</p>
+        <input type = "text" name="phone1" size="5"/> -
+        <input type = "text" name="phone2" size="5"/> -
+        <input type = "text" name="phone3" size="5"/>
+        <p><input type = "button" name="btSubmit" value="Submit"/></p>
+   
+   </form>
+   <form>
+    <input type="text"/>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<form action="https://www.google.com.vn/search"> 
+    <input type="text" name="q"/>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<form action="https://www.google.com.vn/search"> 
+    <input type="text" name="q"/>
+    <input type="submit" value="Tìm kiếm"/>
+</form>
+<br>
+<h2>DANG KY HOC VIEN</h2>
+HO VA TEN <input type = "text" name="NAME"/><br>
+NGAY SINH <input type = "date" name="BIRTHDAY"/><br>
+GIOI TINH 
+<input type="radio" name="rd"/> Nam 
+<input type="radio" name="rd"/> Nu <br/>
+DIA CHI
+<textarea cols="50" rows="4"></textarea><br>
+LOP
+<select>
+    <option value = "  ">A</option>
+    <option>B</option>
+    <option>C </option>
+</select><br>
+EMAIL <input type = "email" name="mail"/><br>
+DIEN THOAI <input type = "number" name="number"/><br>
+<input type="submit" value="dang ki"/>
+<input type="reset" value="nhap lai"/>
+<h2 style="background-color: orange;color:cornsilk;text-align: center">SO THICH CUA BAN</h2>
+HO VA TEN <input type = "text" name="yourname"/><br>
+EMAIL <input type = "email" name="email"/><br>
+SO THICH <br>
+<input type = "checkbox" name="hobby"/>The thao
+<input type = "checkbox" name="hobby"/>am nhac
+<input type = "checkbox" name="hobby"/>Doc sach<br>
+<input type = "checkbox" name="hobby"/>Luot web
+<input type = "checkbox" name="hobby"/>choi game
+<input type = "checkbox" name="hobby"/>am nhac<br>
+<input type = "checkbox" name="hobby"/>dien anh<br>
+<input type="submit" value="Gui thong tin"/>
+<input type="reset" value="nhap lai"/>
+<input type="range" name="score" id="score" value="50" min="0" max="100">
+</form>
+</body>
+</html>
